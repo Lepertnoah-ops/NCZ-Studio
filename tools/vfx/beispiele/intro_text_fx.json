@@ -1,0 +1,13 @@
+{
+  "kommentar": "Text und Branding nur auf Wunsch (deshalb 'erlaubt'). Auf ein fertiges Reel ohne Ton anwenden (Pfad anpassen): python3 ../reelvfx.py render intro_text_fx.json /tmp/intro.mp4 --bis 6. Wortmarke und Bauchbinde nehmen die Marke aus stil.json.",
+  "per": 0.42858,
+  "video": "reel_ohne_ton.mp4",
+  "lut": null,
+  "erlaubt": ["text"],
+  "fx": [
+    {"fx": "kinetic", "text": "DEIN TEXT HIER", "beat": 0, "beats": 4, "mode": "stack"},
+    {"fx": "wordmark", "beat": 4},
+    {"fx": "lower_third", "title": "NAME", "beat": 6, "beats": 6},
+    {"fx": "counter", "start": 0, "end": 10, "suffix": " KM", "beat": 26, "beats": 4}
+  ]
+}

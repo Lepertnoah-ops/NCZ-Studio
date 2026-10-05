@@ -1,0 +1,17 @@
+{
+  "kommentar": "Vorlage: Akzente auf einem fertigen Schnitt ohne Effekte (Pfad anpassen). Beats ab der Eins der Hook. 808 = punch, 808-Nachschlag = punch2, Clap = mini_punch, 2 Flashes, Shake nur auf Treffern, Finale mit Push. Budget laut stil.json.",
+  "per": 0.42858,
+  "beat0": 0.0,
+  "video": "schnitt_ohne_fx.mp4",
+  "cuts": "auto",
+  "lut": null,
+  "fx": [
+    {"fx": "punch", "at_beats": [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60]},
+    {"fx": "punch2", "at_beats": [9, 25, 41]},
+    {"fx": "mini_punch", "at_beats": [2, 6, 10, 14, 18, 22, 26, 30, 34, 38]},
+    {"fx": "shake", "at_beats": [32, 34]},
+    {"fx": "flash", "at_beats": [48, 58]},
+    {"fx": "push", "beat": 58, "beats": 6, "z0": 1.0, "z1": 1.12},
+    {"fx": "vignette", "amount": 0.12}
+  ]
+}

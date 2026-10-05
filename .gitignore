@@ -1,0 +1,36 @@
+# Was nicht ins GitHub-Repository kommt (Sicherung bzw. Arbeitskopie in einer eigenen Session).
+
+# Im Claude-Projekt vom System verwaltet
+/uploads/
+/.notes/
+
+# Videos (bleiben im Drive und im Projektordner)
+*.[mM][pP]4
+*.[mM][oO][vV]
+*.[mM]4[vV]
+*.[aA][vV][iI]
+*.[mM][kK][vV]
+*.[wW][eE][bB][mM]
+
+# Musik und Tonspuren, außer dem SFX-Kit
+*.[mM][pP]3
+*.[wW][aA][vV]
+*.[mM]4[aA]
+*.[aA][aA][cC]
+*.[fF][lL][aA][cC]
+!/sfx/*.wav
+!/sfx/*.mp3
+
+# Reels: nur Schnittlisten, Skripte und Steckbriefe; Videos, Songs, Storyboards und Titelbilder bleiben draußen
+/reels/**
+!/reels/**/
+!/reels/**/*.py
+!/reels/**/*.json
+!/reels/**/*.md
+!/reels/**/*.txt
+!/reels/**/*.tsv
+
+# Abfall
+__pycache__/
+*.pyc
+.DS_Store

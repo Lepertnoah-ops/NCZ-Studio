@@ -1,0 +1,41 @@
+{
+ "_info": "Maschinenlesbarer Teil von Stil-Leitfaden.md. Die Werkzeuge lesen diese Datei (neues_reel.py, schnitt/edl.py, pipeline/edlcheck.py, render.py, storyboard.py, vfx/reelvfx.py, analyse/shotliste.py, analyse/transkript.py, Interview-Vorlage). Fehlende Werte = Grundstil aus tools/stil.py. Bei Änderungen Stil-Leitfaden.md im selben Zug anpassen. Prüfen: python3 tools/stil.py",
+ "eingerichtet": false,
+ "marke": "",
+ "nutzer": "",
+ "inhalt": "",
+ "look": "clean",
+ "vignette": 0.12,
+ "kapitel": ["Einstieg", "Aufbau", "Höhepunkt", "Finale"],
+ "laenge_s": [30, 40],
+ "budget": {
+  "ramps": 2,
+  "flashes": 2,
+  "shakes": 2,
+  "uebergaenge": 4,
+  "min_beats": 2,
+  "aktion_beats": 4,
+  "segmente_16": [16, 24]
+ },
+ "punch": {"808": 0.14, "nachschlag": 0.12, "clap": 0.06},
+ "finale": {"beats": 8, "zeitlupe": true, "push": true},
+ "einstieg_im_video": true,
+ "epic_opener": false,
+ "stichwoerter": {
+  "durchgehend": "Seilspring|\\bSprint|\\bLäuf|\\bLauf\\b|\\blaufen|Tanz|Battle Ropes|Reaktion|Erschöpf|Jubel|\\bLach|Grins",
+  "explosiv": "Salto|Flip|Box-Jump|\\bSprung(?![-\\w])|\\bJump\\b",
+  "schlag": "Box(?!-Jump)|Sandsack|Pratze|Sparring|Kick|Schlag|Treffer|Aufprall"
+ },
+ "erlaubt": [],
+ "varianten": [
+  {"x": "A", "name": "Story",
+   "idee": "Stil-Leitfaden 1:1: Einstieg im Video (1 Takt, Song gedämpft, O-Ton), Drop auf der Eins der Hook, Szenen mit Jump Cuts in 4 Kapiteln, 1 O-Ton-Moment, Länge nach Regel 2.",
+   "kurz": "Einstieg im Video, Drop auf der Hook, Szenen mit Jump Cuts in 4 Kapiteln"},
+  {"x": "B", "name": "Power",
+   "idee": "andere Songstelle (z. B. Break → Drop), andere Clips und Reihenfolge als A (analyse/shotliste.py --meiden …/A/edl.json): kurzer Einstieg (2 Beats), Szenen eher 1 Takt mit Jump Cuts auf den 808, die meisten Punches, keine Überblendung.",
+   "kurz": "andere Songstelle, kurzer Einstieg, kurze Szenen mit vielen Jump Cuts, meiste Punches"},
+  {"x": "C", "name": "Musikvideo",
+   "idee": "wie ein Musikvideo: langer Einstieg im Video (2 Takte oder eine ruhige Phrase, der Song öffnet sich langsam), lange Szenen (2–4 Takte), Überblendungen an ruhigen Stellen, 2 O-Ton-Momente, O-Ton-Ausklang, die wenigsten Punches.",
+   "kurz": "langer Einstieg, lange Szenen, Überblendungen an ruhigen Stellen, O-Ton-Momente und Ausklang"}
+ ]
+}

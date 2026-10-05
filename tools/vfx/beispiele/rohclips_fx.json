@@ -1,0 +1,17 @@
+{
+  "kommentar": "Direkt aus dem Rohmaterial (am besten 4K/60 fps): Speed-Ramp nach Rezept, Push, Bullet-Zeitlupe mit Zwischenbildern. Einen eigenen Clip als clip.mov neben diese Datei legen (Download aus dem Drive per curl, siehe Kurzanleitung).",
+  "per": 0.42858,
+  "clips": [
+    {"file": "clip.mov", "src": 0.5, "beats": 4, "speed": "ramp", "gain": "auto", "focus": [0.5, 0.45]},
+    {"file": "clip.mov", "src": 6.0, "beats": 2, "push": [1.0, 1.06]},
+    {"file": "clip.mov", "src": 7.2, "beats": 4, "speed": "bullet"}
+  ],
+  "lut": "clean",
+  "erlaubt": ["whip"],
+  "fx": [
+    {"fx": "punch", "at_beats": [2, 4]},
+    {"fx": "whip", "beat": 4},
+    {"fx": "leak_cross", "beat": 6},
+    {"fx": "grain", "amount": 0.025}
+  ]
+}

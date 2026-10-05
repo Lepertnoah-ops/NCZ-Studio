@@ -1,0 +1,12 @@
+{
+ "_info": "Beispiel für eine Tags-Datei (Sichtung eines Drive-Ordners). Schlüssel = Clipname ohne 'IMG_' und Endung. kapitel: in welchen Kapiteln der Clip passt (1–4, Namen in stil.json). moment = bester Zeitpunkt im Clip (s), dort liegt später der Hit. desc = Inhalt in wenigen Worten. Tags: opener (stärkstes Einstiegsbild), branding (Logo, Marke, Wiedererkennung), gruppe, action, nah, langsam (langsame Bewegung, braucht 4 Beats oder eine Ramp), showpiece (für Speed-Ramps), power, schlag (Treffer/Aufprall, darf Shake bekommen), payoff (Ergebnis, Ziel, Auftritt: nur Kapitel 4), emotion (Freude, Erschöpfung, Jubel), finale (Schlussbild, loopt in den Opener), ausschuss (nie verwenden). Eigene Tags gehen, wenn stil.json 'shotliste.slot_tags' sie nutzt.",
+ "0001": {"kapitel": [1], "tags": ["opener", "gruppe", "branding"], "desc": "Gruppe vor dem Logo", "moment": 2.4},
+ "0002": {"kapitel": [1, 2], "tags": ["action", "nah"], "desc": "Detail der Bewegung, nah", "moment": 3.1},
+ "0003": {"kapitel": [1, 2, 3], "tags": ["showpiece", "action"], "desc": "Sprung, Landung bei 5,8 s", "moment": 5.8},
+ "0004": {"kapitel": [2], "tags": ["langsam"], "desc": "ganze Wiederholung, Endposition bei 7,0 s", "moment": 7.0},
+ "0005": {"kapitel": [3], "tags": ["power", "schlag"], "desc": "Treffer", "moment": 1.2},
+ "0006": {"kapitel": [4], "tags": ["payoff"], "desc": "Ziel, Ergebnis", "moment": 4.0},
+ "0007": {"kapitel": [4], "tags": ["emotion"], "desc": "Jubel", "moment": 2.0},
+ "0008": {"kapitel": [4], "tags": ["finale", "gruppe", "branding"], "desc": "Gruppenbild mit Logo", "moment": 1.5},
+ "0009": {"kapitel": [], "tags": ["ausschuss"], "desc": "versehentlich aufgenommen"}
+}
