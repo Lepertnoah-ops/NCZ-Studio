@@ -1,0 +1,41 @@
+{
+ "duration": 41.8602,
+ "music": [
+  {
+   "file": "/home/user/reel/song.mp3",
+   "src": 47.858,
+   "at": 0.0,
+   "dur": 41.8602,
+   "fade_in": 0.004,
+   "fade_out": 0.038
+  }
+ ],
+ "sfx": [],
+ "match_loudness": false,
+ "target_lufs": null,
+ "ceiling_db": -0.3,
+ "music_fx": [
+  {
+   "from": 0.0,
+   "to": 1.6744,
+   "fade_in": 0.0,
+   "fade_out": 0.03,
+   "gain_db": -10.0,
+   "hp_hz": 280.0,
+   "lp_hz": 3200.0,
+   "width": 0.3
+  }
+ ],
+ "oton": [
+  {
+   "file": "/home/user/reel/audio/20261004_124259.flac",
+   "src": 1.2,
+   "at": 0.0,
+   "dur": 1.6744,
+   "level_lu": -6.0,
+   "fade_in": 0.03,
+   "fade_out": 0.03,
+   "hp_hz": 100
+  }
+ ]
+}

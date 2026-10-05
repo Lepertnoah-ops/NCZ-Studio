@@ -85,56 +85,48 @@ def d(sec, clip, von, bis, desc, ab=0.0, jump=False, fx=None, **kw):
 
 # ---- pro Reel anpassen -------------------------------------------------------------------------------
 TITEL = "ncz_041026"
-# TRANSKRIPT = "/home/user/reel/transkript"   # nur für Dialog-Szenen d(): Ordner mit <clip>.json (analyse/transkript.py)
-VARIANTE, VARIANTE_NAME = "A", "Story"    # Name darf zum Reel passen
-# Idee: Stil-Leitfaden 1:1: Einstieg im Video (1 Takt, Song gedämpft, O-Ton), Drop auf der Eins der Hook, Szenen mit Jump Cuts in 4 Kapiteln, 1 O-Ton-Moment, Länge nach Regel 2.
-UNTERSCHIED = "Einstieg im Video, Drop auf der Hook, Szenen mit Jump Cuts in 4 Kapiteln"   # 1 Zeile fürs Storyboard und den Nutzer: was diese Variante anders macht
+VARIANTE, VARIANTE_NAME = "A", "Story"
+UNTERSCHIED = "Einstieg mit Banner und echtem Ton, Drop auf der Strophe (T29), Training -> Boxen/Handstand -> Erschöpfung -> Gruppenfoto"
 UNTERTITEL = "Variante " + VARIANTE + " · " + VARIANTE_NAME
-SONG = "Interpret – Titel"
-SONG_DATEI = "/home/user/reel/song.mp3"   # Song im Arbeitsordner (Download aus dem Drive-Ordner)
-START_TAKT = 8                             # Takt laut song.md, auf dessen Eins der Drop liegt (T8.1 -> 8)
-AUFTAKT = 4                                # Beats vor dieser Eins: 0, 2, 4 oder 8 (Einstieg); verlängert, kürzt nie das Ende
-TAKTE = 24                                 # ab der Eins, Vielfaches von 4; Regel 2: Länge laut stil.json; 8 nur auf Wunsch
-EINSTIEG = 4                               # Beats ab Reel-Start bis zum Drop: Einstieg im Video (Regel 11), 0 = aus
-EINSTIEG_SONG = "gedämpft"                 # Song im Einstieg: "gedämpft" wie aus einer Box vor Ort, oder "aus": nur
-                                           # echter Ton, Song ab dem Drop (Pflicht bei Musik im Clip-Ton, oton.md)
-EINSTIEG_AUF = 0.03                        # s, so öffnet sich der gedämpfte Song zum Drop: 0,03 auf dem Schlag, 2–6 langsam
-AUSKLANG = 0                               # Beats O-Ton-Ausklang nach dem letzten Takt (Regel 12), 0 = aus, sonst 4
-DECODER_VERSATZ = 0.0                      # s, Projektanweisungen Abschnitt 2 (song_analyse.py eicht schon selbst)
-HITS = [4, 20, 28, 36, 44, 52, 62, 78, 84, 92]   # 808-Hits in Beats ab Reel-Start (Akzent-Karte)
-P808, P808_NACH, MINI = STIL["punch"]["808"], STIL["punch"]["nachschlag"], STIL["punch"]["clap"]   # Punch-Stärken
+SONG = "EUROTHUG x OG KEEMO – BUCKS"
+SONG_DATEI = "/home/user/reel/song.mp3"
+START_TAKT = 29
+AUFTAKT = 4
+TAKTE = 24
+EINSTIEG = 4
+EINSTIEG_SONG = "gedämpft"
+EINSTIEG_AUF = 0.03
+AUSKLANG = 0
+DECODER_VERSATZ = 0.0
+HITS = [6, 7, 9, 20, 22, 27, 31, 32, 38, 40, 43, 45, 48, 54, 56, 59, 62, 63, 64, 66, 73, 75, 76, 78, 80, 81, 83, 89, 96, 97]
+P808, P808_NACH, MINI = STIL["punch"]["808"], STIL["punch"]["nachschlag"], STIL["punch"]["clap"]
 
 K1, K2, K3, K4 = STIL["kapitel"][:4]
-# Beispiel mit Platzhalter-Clips A1…D2 (ersetzen): 1 Takt Einstieg + 24 Takte, Kapitel 1, 2, 2 und 1 Phrase(n).
-# Szenen meist 8 Beats in 1–3 Teilen; Punch nur beim Szenenwechsel auf dem 808, der Jump Cut ist selbst der Akzent.
-s(4, K1, "A1", 0.0, "speed", ["Zeitlupe"], "Einstieg im Video: Logo/Marke vor Ort, Leute reden im Hintergrund",
+# Kapitel 1: Einstieg im Video in der ruhigen Pause (T28) + Drop auf T29
+s(4, K1, "20261004_124259", 1.2, "speed", ["Zeitlupe"], "Einstieg: Gruppe sammelt sich im Park, Zurufe",
   dict(push=[1.0, 1.04]), speed=0.75, oton="vorn")
-s(8, K1, "A2", 0.0, "speed", ["Zeitlupe", "Push-in", "Punch-in"], "Drop: stärkstes Gruppenbild, alle halten die Pose",
+s(8, K1, "6645", 1.0, "speed", ["Zeitlupe", "Push-in", "Punch-in"], "Drop: Handstand-Duo hält, Zuschauer dahinter",
   dict(push=[1.0, 1.08], punch=[[0, P808]]), speed=0.5)
-s(4, K1, "A3", 0.0, "normal", [], "Aktion vor dem Logo, Wiederholung 1", {}, oton="leise")
-j(4, "A3", 9.0, "normal", [], "dieselbe Aktion, Wiederholung 4", {}, oton="leise")
-s(4, K2, "B1", 0.0, "normal", ["Punch-in"], "Bewegung von Anfang bis Endposition, 808", dict(punch=[[0, P808]]))
-j(4, "B1", 8.0, "normal", [], "dieselbe Bewegung, letzte Wiederholung")
-s(4, K2, "B2", 0.0, "normal", ["Punch-in"], "Seilspringen mit Logo, 808", dict(punch=[[0, P808]]), oton="leise")
-j(2, "B2b", 0.0, "normal", [], "Seilspringen, nächste Person vor derselben Kamera", oton="leise")
-j(2, "B2c", 0.0, "normal", [], "Seilspringen, dritte Person", oton="leise")
-s(8, K2, "B3", 0.0, "normal", ["Punch-in"], "Showpiece, sauber bis zur Endposition", dict(punch=[[0, P808]]))
-s(4, K2, "B4", 0.0, "normal", ["Punch-in"], "langsame Bewegung bis zur Endposition, 808", dict(punch=[[0, P808]]))
-j(4, "B4", 7.0, "normal", ["Mini-Punch"], "spätere Wiederholung, Clap", dict(punch=[[0, MINI, 0]]))
-s(4, K3, "C1", 0.0, "normal", ["Shake"], "Schlag mit Treffer auf dem 808", dict(shake=[[0, 18, .6]]))
-j(4, "C1", 6.0, "normal", [], "Schlagserie später")
-# Ramp nur als Ausnahme (Regel 8): ramp_hold auf einem explosiven Sprung, Hit (Beat 2 im Shot) auf einem 808 in HITS
-s(4, K3, "C2", 0.0, "ramp_hold", ["Speed-Ramp"], "Box-Jump, Landung auf dem 808", dict(punch=[[2, 0.126]]))
-j(4, "C2b", 0.0, "normal", [], "Box-Jump, nächste Person an derselben Box")
-# O-Ton-Moment im Break (kein 808): Überblendung hinein, Song tritt zurück, Rufe vorn
-s(8, K3, "C3", 0.0, "normal", ["Push-in"], "Gruppe in Bewegung, alle feuern an", dict(push=[1.0, 1.06]),
-  oton="vorn", ueber="blende")
-s(8, K3, "C4", 0.0, "normal", ["Punch-in"], "Salto, ganz mit Landung, 808 auf Beat 2 im Shot", dict(punch=[[2, P808]]))
-s(4, K4, "D1", 0.0, "normal", ["Flash", "Punch-in"], "Payoff: Ergebnis, Erschöpfung danach", dict(flash=[[0, .55]], punch=[[0, P808]]))
-j(4, "D1", 5.0, "normal", [], "Jubel, abklatschen", oton="leise")
-s(8, K4, "D2", 0.0, "speed", ["Zeitlupe", "Push-in", "Flash"], "Finale: Gruppenbild mit Logo (Loop zum Anfang)",
-  dict(push=[1.0, 1.12], flash=[[0, .55]], punch=[[0, P808]]), speed=0.5)
-# Mit AUSKLANG = 4 zum Schluss: s(4, K4, "D3", 0.0, "normal", [], "Ausklang: alle lachen, echter Ton", oton="vorn")
+s(8, K1, "20261004_130520", 2.7, "normal", [], "Training beginnt, Banner nocomfort.zone", {})
+# Kapitel 2: Aufwärmen und Gruppenübungen
+s(8, K2, "20261004_124710", 3.6, "normal", ["Punch-in"], "Aufwärmen: Arme hoch, ganze Gruppe", dict(punch=[[0, P808]]))
+s(4, K2, "20261004_130551", 3.2, "normal", [], "Liegestütz Gruppe, Banner hinten", {})
+j(4, "6631", 7.5, "normal", ["Mini-Punch"], "Liegestütz, andere Gruppe mit Griffen", dict(punch=[[0, MINI]]))
+s(4, K2, "6689", 6.0, "normal", [], "Klimmzug nah", {})
+j(6, "02235CDC-6CE8-4BF3-9741-EA778A00274A", 12.3, "normal", ["Mini-Punch"], "Klimmzug, nächster Athlet", dict(punch=[[0, MINI]]))
+s(6, K2, "6629", 6.6, "normal", ["Punch-in"], "Dips am Barren", dict(punch=[[0, P808]]))
+# Kapitel 3: Stationen
+s(4, K3, "6623", 5.4, "normal", ["Shake"], "Pratzen: Schlagserie", dict(shake=[[0, 14, .5]]))
+j(4, "6682", 3.1, "normal", [], "Pratzen, nächstes Paar", dict(punch=[[0, MINI]]))
+s(8, K3, "FF7D463A-8931-4001-9FC1-74640920CA80", 5.0, "normal", ["Punch-in"], "Handstand-Duo auf Parallettes", dict(punch=[[2, P808]]))
+s(4, K3, "6626", 2.0, "normal", ["Punch-in"], "Battle Ropes vor dem Banner", dict(punch=[[0, P808]]))
+j(4, "6617", 5.0, "normal", [], "Battle Ropes, nächstes Paar")
+s(8, K3, "6620", 21.0, "normal", ["Punch-in"], "Muscle-up an der Stange vor dem Banner", dict(punch=[[0, P808]]))
+# Kapitel 4: Erschöpfung, Essen, Gruppenfoto
+s(4, K4, "6606", 0.2, "normal", [], "erschöpft am Boden vor dem Banner", {})
+s(4, K4, "6735", 1.0, "normal", [], "Essen: genießen", {})
+s(8, K4, "6612", 8.0, "speed", ["Zeitlupe", "Push-in"], "Finale: Gruppenfoto aller Teilnehmer",
+  dict(push=[1.0, 1.12], punch=[[4, P808]]), speed=0.5)
 # -------------------------------------------------------------------------------------------------------
 
 BEATS = AUFTAKT + TAKTE * 4 + AUSKLANG

@@ -1,0 +1,777 @@
+{
+ "song": "/home/user/reel/song.mp3",
+ "per": 0.418602,
+ "bpm": 143.334,
+ "song_start": 47.858,
+ "takte": 20,
+ "auftakt": 4,
+ "beats": 84,
+ "dauer": 35.1626,
+ "start_takt": 29,
+ "kapitel": [
+  {
+   "n": 1,
+   "name": "Einstieg",
+   "phrasen": 1,
+   "start_s": 0.0
+  },
+  {
+   "n": 2,
+   "name": "Aufbau",
+   "phrasen": 2,
+   "start_s": 8.372
+  },
+  {
+   "n": 3,
+   "name": "Höhepunkt",
+   "phrasen": 1,
+   "start_s": 21.767
+  },
+  {
+   "n": 4,
+   "name": "Finale",
+   "phrasen": 1,
+   "start_s": 28.465
+  }
+ ],
+ "checks": {
+  "szenen": 18,
+  "flashes": 1,
+  "shakes": 0,
+  "szenen_unter_4_beats": [
+   5,
+   10,
+   14
+  ],
+  "clips_doppelt": false,
+  "fehlende_clips": [],
+  "finale_beats": 8,
+  "ohne_analyse": []
+ },
+ "shots": [
+  {
+   "n": 1,
+   "kapitel": 1,
+   "kapitel_name": "Einstieg",
+   "slot": "opener",
+   "beat": 0,
+   "beats": 8,
+   "t": 0.0,
+   "song_t": 47.858,
+   "takt": "T28.1",
+   "akzent": "none",
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe 0,75×",
+    "harter Schnitt",
+    "Punch@2.75",
+    "Punch@2.25",
+    "Push-in +6 %"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      2.75,
+      0.05
+     ],
+     [
+      2.25,
+      0.05
+     ]
+    ],
+    "push": [
+     1.0,
+     1.06
+    ]
+   },
+   "speed": 0.75,
+   "clip": "20261004_124259",
+   "src": 1.988,
+   "peak": 2.5,
+   "desc": "Totale: Gruppe sammelt sich im Park",
+   "passt": "opener",
+   "analysiert": true
+  },
+  {
+   "n": 2,
+   "kapitel": 1,
+   "kapitel_name": "Einstieg",
+   "slot": "epic",
+   "beat": 8,
+   "beats": 6,
+   "t": 3.3488,
+   "song_t": 51.2068,
+   "takt": "T30.1",
+   "akzent": "none",
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe 0,5×",
+    "harter Schnitt",
+    "Punch@3.25",
+    "Punch@1.5",
+    "Push-in +8 %"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      3.25,
+      0.05
+     ],
+     [
+      1.5,
+      0.05
+     ]
+    ],
+    "push": [
+     1.0,
+     1.08
+    ]
+   },
+   "speed": 0.5,
+   "clip": "6644",
+   "src": 1.791,
+   "peak": 2.0,
+   "desc": "Handstand Duo, gehalten",
+   "passt": "epic",
+   "analysiert": true
+  },
+  {
+   "n": 3,
+   "kapitel": 1,
+   "kapitel_name": "Einstieg",
+   "slot": "branding",
+   "beat": 14,
+   "beats": 6,
+   "t": 5.8604,
+   "song_t": 53.7184,
+   "takt": "T31.3",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@2.5",
+    "Punch@0.5",
+    "Push-in +6 %"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      2.5,
+      0.12
+     ],
+     [
+      0.5,
+      0.12
+     ]
+    ],
+    "push": [
+     1.0,
+     1.06
+    ]
+   },
+   "clip": "6674",
+   "src": 3.581,
+   "peak": 4.0,
+   "desc": "Gang, Park-Totale, Banner 4 s",
+   "passt": "branding",
+   "analysiert": true
+  },
+  {
+   "n": 4,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "action",
+   "beat": 20,
+   "beats": 4,
+   "t": 8.372,
+   "song_t": 56.23,
+   "takt": "T33.1",
+   "akzent": "808",
+   "mode": "normal",
+   "fx": [
+    "Punch-in",
+    "Punch@2",
+    "Punch@3.25"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ],
+     [
+      2.0,
+      0.12
+     ],
+     [
+      3.25,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6632",
+   "src": 4.381,
+   "peak": 4.8,
+   "desc": "Klimmzug, grinst zur Kamera 4-5 s",
+   "passt": "action",
+   "analysiert": true
+  },
+  {
+   "n": 5,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "durchgehend",
+   "beat": 24,
+   "beats": 2,
+   "t": 10.0464,
+   "song_t": 57.9044,
+   "takt": "T34.1",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@0.5",
+    "Punch@0.25"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0.5,
+      0.12
+     ],
+     [
+      0.25,
+      0.12
+     ]
+    ]
+   },
+   "clip": "20261004_130130",
+   "src": 3.581,
+   "peak": 4.0,
+   "desc": "Gruppe Liegestütz Totale",
+   "passt": "action",
+   "analysiert": true
+  },
+  {
+   "n": 6,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "highlight",
+   "beat": 26,
+   "beats": 6,
+   "t": 10.8837,
+   "song_t": 58.7416,
+   "takt": "T34.3",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@4.75",
+    "Punch@1"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      4.75,
+      0.12
+     ],
+     [
+      1.0,
+      0.12
+     ]
+    ]
+   },
+   "clip": "FF7D463A-8931-4001-9FC1-74640920CA80",
+   "src": 7.281,
+   "peak": 7.7,
+   "desc": "Handstand Parallettes Duo",
+   "passt": "showpiece",
+   "analysiert": true
+  },
+  {
+   "n": 7,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "action",
+   "beat": 32,
+   "beats": 4,
+   "t": 13.3953,
+   "song_t": 61.2533,
+   "takt": "T36.1",
+   "akzent": "808",
+   "mode": "normal",
+   "fx": [
+    "Punch-in",
+    "Punch@3.25",
+    "Punch@2.25"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ],
+     [
+      3.25,
+      0.12
+     ],
+     [
+      2.25,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6593",
+   "src": 0.081,
+   "peak": 0.5,
+   "desc": "Kerze Beine hoch",
+   "passt": "action",
+   "analysiert": true
+  },
+  {
+   "n": 8,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "action",
+   "beat": 36,
+   "beats": 6,
+   "t": 15.0697,
+   "song_t": 62.9277,
+   "takt": "T37.1",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@4.25",
+    "Punch@2.25",
+    "Push-in +10 %"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      4.25,
+      0.12
+     ],
+     [
+      2.25,
+      0.12
+     ]
+    ],
+    "push": [
+     1.0,
+     1.1
+    ]
+   },
+   "clip": "6610",
+   "src": 5.481,
+   "peak": 5.9,
+   "desc": "Rücken nah, Bauchlage",
+   "passt": "action",
+   "analysiert": true
+  },
+  {
+   "n": 9,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "action",
+   "beat": 42,
+   "beats": 4,
+   "t": 17.5813,
+   "song_t": 65.4393,
+   "takt": "T38.3",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@2.75",
+    "Punch@1.25"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      2.75,
+      0.12
+     ],
+     [
+      1.25,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6618",
+   "src": 8.481,
+   "peak": 8.9,
+   "desc": "Liegestütz Griffe Mann Cap, Handstand hinten 0-3 s",
+   "passt": "action",
+   "analysiert": true
+  },
+  {
+   "n": 10,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "durchgehend",
+   "beat": 46,
+   "beats": 2,
+   "t": 19.2557,
+   "song_t": 67.1137,
+   "takt": "T39.3",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@0.5",
+    "Punch@0.75",
+    "Push-in +10 %"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0.5,
+      0.12
+     ],
+     [
+      0.75,
+      0.12
+     ]
+    ],
+    "push": [
+     1.0,
+     1.1
+    ]
+   },
+   "clip": "6604",
+   "src": 6.981,
+   "peak": 7.4,
+   "desc": "Klappmesser V-ups nah",
+   "passt": "action",
+   "analysiert": true
+  },
+  {
+   "n": 11,
+   "kapitel": 2,
+   "kapitel_name": "Aufbau",
+   "slot": "nah",
+   "beat": 48,
+   "beats": 4,
+   "t": 20.0929,
+   "song_t": 67.9509,
+   "takt": "T40.1",
+   "akzent": "808",
+   "mode": "normal",
+   "fx": [
+    "Punch-in",
+    "Punch@0.5",
+    "Punch@2.5",
+    "Push-in +10 %"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ],
+     [
+      0.5,
+      0.12
+     ],
+     [
+      2.5,
+      0.12
+     ]
+    ],
+    "push": [
+     1.0,
+     1.1
+    ]
+   },
+   "clip": "6609",
+   "src": 4.481,
+   "peak": 4.9,
+   "desc": "Liegestütz von oben vorn",
+   "passt": "action + nah",
+   "analysiert": true
+  },
+  {
+   "n": 12,
+   "kapitel": 3,
+   "kapitel_name": "Höhepunkt",
+   "slot": "power",
+   "beat": 52,
+   "beats": 4,
+   "t": 21.7673,
+   "song_t": 69.6253,
+   "takt": "T41.1",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@3.5",
+    "Punch@3.75"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      3.5,
+      0.12
+     ],
+     [
+      3.75,
+      0.12
+     ]
+    ]
+   },
+   "clip": "FAD695FF-5476-4DAD-B22F-EEC2DFE40133",
+   "src": 19.581,
+   "peak": 20.0,
+   "desc": "Battle Ropes vor Banner 14-25 s (vorher Frau redet)",
+   "passt": "power",
+   "analysiert": true
+  },
+  {
+   "n": 13,
+   "kapitel": 3,
+   "kapitel_name": "Höhepunkt",
+   "slot": "power",
+   "beat": 56,
+   "beats": 4,
+   "t": 23.4417,
+   "song_t": 71.2997,
+   "takt": "T42.1",
+   "akzent": "808",
+   "mode": "normal",
+   "fx": [
+    "Punch-in",
+    "Punch@3",
+    "Punch@0.25"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ],
+     [
+      3.0,
+      0.12
+     ],
+     [
+      0.25,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6637",
+   "src": 5.581,
+   "peak": 6.0,
+   "desc": "Dips/Muscle-up an Stange, zwei Männer",
+   "passt": "power",
+   "analysiert": true
+  },
+  {
+   "n": 14,
+   "kapitel": 3,
+   "kapitel_name": "Höhepunkt",
+   "slot": "durchgehend",
+   "beat": 60,
+   "beats": 2,
+   "t": 25.1161,
+   "song_t": 72.9741,
+   "takt": "T43.1",
+   "akzent": "clap",
+   "mode": "normal",
+   "fx": [
+    "Mini-Punch",
+    "Punch@1.5",
+    "Punch@1.75"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.06
+     ],
+     [
+      1.5,
+      0.12
+     ],
+     [
+      1.75,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6650",
+   "src": 3.581,
+   "peak": 4.0,
+   "desc": "Sparring Paar",
+   "passt": "action",
+   "analysiert": true
+  },
+  {
+   "n": 15,
+   "kapitel": 3,
+   "kapitel_name": "Höhepunkt",
+   "slot": "highlight",
+   "beat": 62,
+   "beats": 6,
+   "t": 25.9533,
+   "song_t": 73.8113,
+   "takt": "T43.3",
+   "akzent": "808",
+   "mode": "normal",
+   "fx": [
+    "Punch-in",
+    "Punch@1",
+    "Punch@4"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ],
+     [
+      1.0,
+      0.12
+     ],
+     [
+      4.0,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6698",
+   "src": 1.581,
+   "peak": 2.0,
+   "desc": "Handstand Frau vor Banner, Abgang 3-4 s",
+   "passt": "showpiece",
+   "analysiert": true
+  },
+  {
+   "n": 16,
+   "kapitel": 4,
+   "kapitel_name": "Finale",
+   "slot": "payoff",
+   "beat": 68,
+   "beats": 4,
+   "t": 28.4649,
+   "song_t": 76.3229,
+   "takt": "T45.1",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@3.75",
+    "Punch@3.5"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      3.75,
+      0.12
+     ],
+     [
+      3.5,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6734",
+   "src": 6.481,
+   "peak": 6.9,
+   "desc": "Mann probiert, Reaktion",
+   "passt": "payoff",
+   "analysiert": true
+  },
+  {
+   "n": 17,
+   "kapitel": 4,
+   "kapitel_name": "Finale",
+   "slot": "emotion",
+   "beat": 72,
+   "beats": 4,
+   "t": 30.1393,
+   "song_t": 77.9973,
+   "takt": "T46.1",
+   "akzent": "none",
+   "mode": "normal",
+   "fx": [
+    "harter Schnitt",
+    "Punch@2.5",
+    "Punch@1"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      2.5,
+      0.12
+     ],
+     [
+      1.0,
+      0.12
+     ]
+    ]
+   },
+   "clip": "6603",
+   "src": 4.581,
+   "peak": 5.0,
+   "desc": "Frau mit Kind tanzt",
+   "passt": "emotion",
+   "analysiert": true
+  },
+  {
+   "n": 18,
+   "kapitel": 4,
+   "kapitel_name": "Finale",
+   "slot": "finale",
+   "beat": 76,
+   "beats": 8,
+   "t": 31.8138,
+   "song_t": 79.6717,
+   "takt": "T47.1",
+   "akzent": "808",
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe 0,5×",
+    "Punch-in",
+    "Punch@4.25",
+    "Punch@6.75",
+    "Push-in +12 %",
+    "Flash"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ],
+     [
+      4.25,
+      0.05
+     ],
+     [
+      6.75,
+      0.05
+     ]
+    ],
+    "push": [
+     1.0,
+     1.12
+    ],
+    "flash": [
+     [
+      0,
+      0.55
+     ]
+    ]
+   },
+   "speed": 0.5,
+   "clip": "6586",
+   "src": 0.791,
+   "peak": 1.0,
+   "desc": "erschöpft liegen unter Banner, ruhig",
+   "passt": "finale",
+   "analysiert": true
+  }
+ ]
+}

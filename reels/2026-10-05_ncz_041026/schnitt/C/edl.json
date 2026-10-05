@@ -1,0 +1,296 @@
+{
+ "titel": "ncz_041026",
+ "untertitel": "Variante C · Musikvideo",
+ "song": "EUROTHUG x OG KEEMO – BUCKS",
+ "per": 0.418602,
+ "hook": 5.997828,
+ "beats": 92,
+ "hits": [
+  24,
+  27,
+  29,
+  30,
+  32,
+  34,
+  35,
+  36,
+  38,
+  45,
+  49,
+  50,
+  53,
+  54,
+  74,
+  76,
+  79,
+  82,
+  84,
+  85
+ ],
+ "shots": [
+  {
+   "beats": 8,
+   "sec": "Einstieg",
+   "clip": "7438",
+   "src": 2.0,
+   "mode": "normal",
+   "fx": [
+    "Push-in",
+    "O-Ton vorn"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.05
+    ]
+   },
+   "desc": "Einstieg: Essen-Tisch am Morgen, Stimmen",
+   "prev": 2.0,
+   "szene": 1,
+   "oton": "vorn",
+   "n": 1,
+   "beat": 0,
+   "t": 0.0
+  },
+  {
+   "beats": 8,
+   "sec": "Einstieg",
+   "clip": "20261004_124348",
+   "src": 4.0,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Aufwärmen in der Gruppe",
+   "prev": 4.0,
+   "szene": 2,
+   "n": 2,
+   "beat": 8,
+   "t": 3.348816
+  },
+  {
+   "beats": 8,
+   "sec": "Einstieg",
+   "clip": "6601",
+   "src": 3.0,
+   "mode": "normal",
+   "fx": [
+    "Push-in",
+    "Blende"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.05
+    ]
+   },
+   "desc": "von oben: Leute im Park",
+   "prev": 3.0,
+   "szene": 3,
+   "ueber": "blende",
+   "n": 3,
+   "beat": 16,
+   "t": 6.697632
+  },
+  {
+   "beats": 8,
+   "sec": "Aufbau",
+   "clip": "6644",
+   "src": 1.0,
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe",
+    "Push-in",
+    "Punch-in"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.08
+    ],
+    "punch": [
+     [
+      0,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Beat setzt ein: Handstand-Duo hält",
+   "prev": 1.0,
+   "szene": 4,
+   "speed": 0.5,
+   "n": 4,
+   "beat": 24,
+   "t": 10.046448
+  },
+  {
+   "beats": 8,
+   "sec": "Aufbau",
+   "clip": "20261004_130130",
+   "src": 0.5,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Gruppe Liegestütz, Totale",
+   "prev": 0.5,
+   "szene": 5,
+   "n": 5,
+   "beat": 32,
+   "t": 13.395264
+  },
+  {
+   "beats": 8,
+   "sec": "Aufbau",
+   "clip": "6599",
+   "src": 3.0,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Sit-ups, sie lacht",
+   "prev": 3.0,
+   "szene": 6,
+   "n": 6,
+   "beat": 40,
+   "t": 16.74408
+  },
+  {
+   "beats": 8,
+   "sec": "Aufbau",
+   "clip": "6668",
+   "src": 4.0,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Klimmzug zu zweit",
+   "prev": 4.0,
+   "szene": 7,
+   "n": 7,
+   "beat": 48,
+   "t": 20.092896
+  },
+  {
+   "beats": 8,
+   "sec": "Höhepunkt",
+   "clip": "6643",
+   "src": 12.0,
+   "mode": "normal",
+   "fx": [
+    "Push-in",
+    "Blende"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.05
+    ]
+   },
+   "desc": "Handstand-Duo auf Parallettes",
+   "prev": 12.0,
+   "szene": 8,
+   "ueber": "blende",
+   "n": 8,
+   "beat": 56,
+   "t": 23.441712
+  },
+  {
+   "beats": 8,
+   "sec": "Höhepunkt",
+   "clip": "6729",
+   "src": 3.0,
+   "mode": "normal",
+   "fx": [
+    "Blende",
+    "O-Ton vorn"
+   ],
+   "fxp": {},
+   "desc": "Soße kommt auf den Couscous, Zurufe",
+   "prev": 3.0,
+   "szene": 9,
+   "ueber": "blende",
+   "oton": "vorn",
+   "n": 9,
+   "beat": 64,
+   "t": 26.790528
+  },
+  {
+   "beats": 8,
+   "sec": "Finale",
+   "clip": "6622",
+   "src": 1.0,
+   "mode": "normal",
+   "fx": [
+    "Punch-in"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      2,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Sandsack: Schlagserie",
+   "prev": 1.0,
+   "szene": 10,
+   "n": 10,
+   "beat": 72,
+   "t": 30.139343999999998
+  },
+  {
+   "beats": 8,
+   "sec": "Finale",
+   "clip": "6612",
+   "src": 8.0,
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe",
+    "Push-in"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.12
+    ],
+    "punch": [
+     [
+      4,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Finale: Gruppenfoto aller Teilnehmer",
+   "prev": 8.0,
+   "szene": 11,
+   "speed": 0.5,
+   "n": 11,
+   "beat": 80,
+   "t": 33.48816
+  },
+  {
+   "beats": 4,
+   "sec": "Finale",
+   "clip": "6735",
+   "src": 3.9,
+   "mode": "normal",
+   "fx": [
+    "O-Ton vorn"
+   ],
+   "fxp": {},
+   "desc": "Ausklang: sie probiert, echter Ton, Song aus",
+   "prev": 3.9,
+   "szene": 12,
+   "oton": "vorn",
+   "n": 12,
+   "beat": 88,
+   "t": 36.836976
+  }
+ ],
+ "variante": "C",
+ "variante_name": "Musikvideo",
+ "hinweis": "Intro des Songs (T9), langer Einstieg am Essen-Tisch, lange Szenen, Überblendungen, Kochen und Lachen mit O-Ton, Ausklang",
+ "auftakt": 8,
+ "takte": 20,
+ "einstieg": 8,
+ "einstieg_song": "gedämpft",
+ "ausklang": 4,
+ "transkript": null
+}

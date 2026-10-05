@@ -1,0 +1,49 @@
+{
+ "duration": 34.325364,
+ "music": [
+  {
+   "file": "/home/user/reel/song.mp3",
+   "src": 76.323,
+   "at": 0.8372,
+   "dur": 33.4882,
+   "fade_in": 0.004,
+   "fade_out": 0.038
+  }
+ ],
+ "sfx": [],
+ "match_loudness": false,
+ "target_lufs": null,
+ "ceiling_db": -0.3,
+ "oton": [
+  {
+   "file": "/home/user/reel/audio/20261004_130520.flac",
+   "src": 5.0,
+   "at": 0.0,
+   "dur": 0.8372,
+   "level_lu": -6.0,
+   "fade_in": 0.03,
+   "fade_out": 0.03,
+   "hp_hz": 100
+  },
+  {
+   "file": "/home/user/reel/audio/6636.flac",
+   "src": 2.0,
+   "at": 14.2325,
+   "dur": 3.3488,
+   "level_lu": -16.0,
+   "fade_in": 0.03,
+   "fade_out": 0.03,
+   "hp_hz": 100
+  },
+  {
+   "file": "/home/user/reel/audio/6670.flac",
+   "src": 2.4,
+   "at": 17.5813,
+   "dur": 3.3488,
+   "level_lu": -16.0,
+   "fade_in": 0.03,
+   "fade_out": 0.03,
+   "hp_hz": 100
+  }
+ ]
+}

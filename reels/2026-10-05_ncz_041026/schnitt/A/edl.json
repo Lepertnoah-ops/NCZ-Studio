@@ -1,0 +1,452 @@
+{
+ "titel": "ncz_041026",
+ "untertitel": "Variante A · Story",
+ "song": "EUROTHUG x OG KEEMO – BUCKS",
+ "per": 0.418602,
+ "hook": 47.858028,
+ "beats": 100,
+ "hits": [
+  6,
+  7,
+  9,
+  20,
+  22,
+  27,
+  31,
+  32,
+  38,
+  40,
+  43,
+  45,
+  48,
+  54,
+  56,
+  59,
+  62,
+  63,
+  64,
+  66,
+  73,
+  75,
+  76,
+  78,
+  80,
+  81,
+  83,
+  89,
+  96,
+  97
+ ],
+ "shots": [
+  {
+   "beats": 4,
+   "sec": "Einstieg",
+   "clip": "20261004_124259",
+   "src": 1.2,
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe",
+    "O-Ton vorn"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.04
+    ]
+   },
+   "desc": "Einstieg: Gruppe sammelt sich im Park, Zurufe",
+   "prev": 1.2,
+   "szene": 1,
+   "speed": 0.75,
+   "oton": "vorn",
+   "n": 1,
+   "beat": 0,
+   "t": 0.0
+  },
+  {
+   "beats": 8,
+   "sec": "Einstieg",
+   "clip": "6645",
+   "src": 1.0,
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe",
+    "Push-in",
+    "Punch-in"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.08
+    ],
+    "punch": [
+     [
+      0,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Drop: Handstand-Duo hält, Zuschauer dahinter",
+   "prev": 1.0,
+   "szene": 2,
+   "speed": 0.5,
+   "n": 2,
+   "beat": 4,
+   "t": 1.674408
+  },
+  {
+   "beats": 8,
+   "sec": "Einstieg",
+   "clip": "20261004_130520",
+   "src": 2.7,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Training beginnt, Banner nocomfort.zone",
+   "prev": 2.7,
+   "szene": 3,
+   "n": 3,
+   "beat": 12,
+   "t": 5.023224
+  },
+  {
+   "beats": 8,
+   "sec": "Aufbau",
+   "clip": "20261004_124710",
+   "src": 3.6,
+   "mode": "normal",
+   "fx": [
+    "Punch-in"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Aufwärmen: Arme hoch, ganze Gruppe",
+   "prev": 3.6,
+   "szene": 4,
+   "n": 4,
+   "beat": 20,
+   "t": 8.37204
+  },
+  {
+   "beats": 4,
+   "sec": "Aufbau",
+   "clip": "20261004_130551",
+   "src": 3.2,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Liegestütz Gruppe, Banner hinten",
+   "prev": 3.2,
+   "szene": 5,
+   "n": 5,
+   "beat": 28,
+   "t": 11.720856
+  },
+  {
+   "beats": 4,
+   "sec": "Aufbau",
+   "clip": "6631",
+   "src": 7.5,
+   "mode": "normal",
+   "fx": [
+    "Jump Cut",
+    "Mini-Punch"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.06
+     ]
+    ]
+   },
+   "desc": "Liegestütz, andere Gruppe mit Griffen",
+   "prev": 7.5,
+   "szene": 5,
+   "jump": true,
+   "n": 6,
+   "beat": 32,
+   "t": 13.395264
+  },
+  {
+   "beats": 4,
+   "sec": "Aufbau",
+   "clip": "6689",
+   "src": 6.0,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Klimmzug nah",
+   "prev": 6.0,
+   "szene": 6,
+   "n": 7,
+   "beat": 36,
+   "t": 15.069671999999999
+  },
+  {
+   "beats": 6,
+   "sec": "Aufbau",
+   "clip": "02235CDC-6CE8-4BF3-9741-EA778A00274A",
+   "src": 12.3,
+   "mode": "normal",
+   "fx": [
+    "Jump Cut",
+    "Mini-Punch"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.06
+     ]
+    ]
+   },
+   "desc": "Klimmzug, nächster Athlet",
+   "prev": 12.3,
+   "szene": 6,
+   "jump": true,
+   "n": 8,
+   "beat": 40,
+   "t": 16.74408
+  },
+  {
+   "beats": 6,
+   "sec": "Aufbau",
+   "clip": "6629",
+   "src": 6.6,
+   "mode": "normal",
+   "fx": [
+    "Punch-in"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Dips am Barren",
+   "prev": 6.6,
+   "szene": 7,
+   "n": 9,
+   "beat": 46,
+   "t": 19.255692
+  },
+  {
+   "beats": 4,
+   "sec": "Höhepunkt",
+   "clip": "6623",
+   "src": 5.4,
+   "mode": "normal",
+   "fx": [
+    "Shake"
+   ],
+   "fxp": {
+    "shake": [
+     [
+      0,
+      14,
+      0.5
+     ]
+    ]
+   },
+   "desc": "Pratzen: Schlagserie",
+   "prev": 5.4,
+   "szene": 8,
+   "n": 10,
+   "beat": 52,
+   "t": 21.767304
+  },
+  {
+   "beats": 4,
+   "sec": "Höhepunkt",
+   "clip": "6682",
+   "src": 3.1,
+   "mode": "normal",
+   "fx": [
+    "Jump Cut"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.06
+     ]
+    ]
+   },
+   "desc": "Pratzen, nächstes Paar",
+   "prev": 3.1,
+   "szene": 8,
+   "jump": true,
+   "n": 11,
+   "beat": 56,
+   "t": 23.441712
+  },
+  {
+   "beats": 8,
+   "sec": "Höhepunkt",
+   "clip": "FF7D463A-8931-4001-9FC1-74640920CA80",
+   "src": 5.0,
+   "mode": "normal",
+   "fx": [
+    "Punch-in"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      2,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Handstand-Duo auf Parallettes",
+   "prev": 5.0,
+   "szene": 9,
+   "n": 12,
+   "beat": 60,
+   "t": 25.11612
+  },
+  {
+   "beats": 4,
+   "sec": "Höhepunkt",
+   "clip": "6626",
+   "src": 2.0,
+   "mode": "normal",
+   "fx": [
+    "Punch-in"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Battle Ropes vor dem Banner",
+   "prev": 2.0,
+   "szene": 10,
+   "n": 13,
+   "beat": 68,
+   "t": 28.464935999999998
+  },
+  {
+   "beats": 4,
+   "sec": "Höhepunkt",
+   "clip": "6617",
+   "src": 5.0,
+   "mode": "normal",
+   "fx": [
+    "Jump Cut"
+   ],
+   "fxp": {},
+   "desc": "Battle Ropes, nächstes Paar",
+   "prev": 5.0,
+   "szene": 10,
+   "jump": true,
+   "n": 14,
+   "beat": 72,
+   "t": 30.139343999999998
+  },
+  {
+   "beats": 8,
+   "sec": "Höhepunkt",
+   "clip": "6620",
+   "src": 21.0,
+   "mode": "normal",
+   "fx": [
+    "Punch-in"
+   ],
+   "fxp": {
+    "punch": [
+     [
+      0,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Muscle-up an der Stange vor dem Banner",
+   "prev": 21.0,
+   "szene": 11,
+   "n": 15,
+   "beat": 76,
+   "t": 31.813751999999997
+  },
+  {
+   "beats": 4,
+   "sec": "Finale",
+   "clip": "6606",
+   "src": 0.2,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "erschöpft am Boden vor dem Banner",
+   "prev": 0.2,
+   "szene": 12,
+   "n": 16,
+   "beat": 84,
+   "t": 35.162568
+  },
+  {
+   "beats": 4,
+   "sec": "Finale",
+   "clip": "6735",
+   "src": 1.0,
+   "mode": "normal",
+   "fx": [],
+   "fxp": {},
+   "desc": "Essen: genießen",
+   "prev": 1.0,
+   "szene": 13,
+   "n": 17,
+   "beat": 88,
+   "t": 36.836976
+  },
+  {
+   "beats": 8,
+   "sec": "Finale",
+   "clip": "6612",
+   "src": 8.0,
+   "mode": "speed",
+   "fx": [
+    "Zeitlupe",
+    "Push-in"
+   ],
+   "fxp": {
+    "push": [
+     1.0,
+     1.12
+    ],
+    "punch": [
+     [
+      4,
+      0.14
+     ]
+    ]
+   },
+   "desc": "Finale: Gruppenfoto aller Teilnehmer",
+   "prev": 8.0,
+   "szene": 14,
+   "speed": 0.5,
+   "n": 18,
+   "beat": 92,
+   "t": 38.511384
+  }
+ ],
+ "variante": "A",
+ "variante_name": "Story",
+ "hinweis": "Einstieg mit Banner und echtem Ton, Drop auf der Strophe (T29), Training -> Boxen/Handstand -> Erschöpfung -> Gruppenfoto",
+ "auftakt": 4,
+ "takte": 24,
+ "einstieg": 4,
+ "einstieg_song": "gedämpft",
+ "ausklang": 0,
+ "transkript": null
+}

@@ -1,0 +1,70 @@
+{
+ "duration": 38.511384,
+ "music": [
+  {
+   "file": "/home/user/reel/song.mp3",
+   "src": 5.9978,
+   "at": 0.0,
+   "dur": 36.837,
+   "fade_in": 0.004,
+   "fade_out": 0.038
+  }
+ ],
+ "sfx": [],
+ "match_loudness": false,
+ "target_lufs": null,
+ "ceiling_db": -0.3,
+ "music_fx": [
+  {
+   "from": 0.0,
+   "to": 3.3488,
+   "fade_in": 0.0,
+   "fade_out": 3.0,
+   "gain_db": -10.0,
+   "hp_hz": 280.0,
+   "lp_hz": 3200.0,
+   "width": 0.3
+  },
+  {
+   "from": 26.7905,
+   "to": 30.1393,
+   "fade_in": 0.25,
+   "fade_out": 0.25,
+   "moment": true,
+   "gain_db": -10.0,
+   "lp_hz": 2500.0
+  }
+ ],
+ "oton": [
+  {
+   "file": "/home/user/reel/audio/7438.flac",
+   "src": 2.0,
+   "at": 0.0,
+   "dur": 3.3488,
+   "level_lu": -6.0,
+   "fade_in": 0.03,
+   "fade_out": 0.03,
+   "hp_hz": 100
+  },
+  {
+   "file": "/home/user/reel/audio/6729.flac",
+   "src": 3.0,
+   "at": 26.7905,
+   "dur": 3.3488,
+   "level_lu": -6.0,
+   "fade_in": 0.4,
+   "fade_out": 0.15,
+   "hp_hz": 100
+  },
+  {
+   "file": "/home/user/reel/audio/6735.flac",
+   "src": 3.9,
+   "at": 36.837,
+   "dur": 1.6744,
+   "level_lu": -6.0,
+   "fade_in": 0.03,
+   "fade_out": 0.03,
+   "hp_hz": 100
+  }
+ ]
+}
