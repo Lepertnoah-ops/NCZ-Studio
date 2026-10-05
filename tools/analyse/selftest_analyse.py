@@ -66,8 +66,11 @@ def main():
     (d / "tags.json").write_text(json.dumps(tags))
     E = sl.build(A, sl.load_pool(None, d / "tags.json"), start_takt=0, auftakt=0)   # Länge nach Regel 2
     fin = E["shots"][-1]
-    assert E["takte"] == 20 and abs(E["dauer"] - 80 * per) < 0.01, (E["takte"], E["dauer"])   # 140 BPM: 20 Takte
-    assert E["shots"][0]["speed"] == 0.75 and fin["beats"] == 8 and fin["speed"] == 0.5, (E["shots"][0], fin)
+    soll = 4
+    while soll * 4 * per < sl.STIL["laenge_s"][0] - 0.01:
+        soll += 4                                                                             # volle Phrasen bis laenge_s[0]
+    assert E["takte"] == soll and abs(E["dauer"] - soll * 4 * per) < 0.01, (E["takte"], soll, E["dauer"])
+    assert E["shots"][0]["speed"] == 0.75 and fin["beats"] == 8 and fin.get("speed", 1.0) == sl.TEMPO["finale"], (E["shots"][0], fin)
     assert all(s["beats"] >= 2 and s["mode"] in ("normal", "speed") for s in E["shots"])   # nie Ramp, nie Zeitraffer
     starts = [s["beat"] for i, s in enumerate(E["shots"]) if i and s["kapitel"] != E["shots"][i - 1]["kapitel"]]
     assert all(b % 16 == 0 for b in starts), starts                                          # Kapitel auf Phrasen

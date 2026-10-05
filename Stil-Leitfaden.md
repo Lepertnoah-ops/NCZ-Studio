@@ -1,6 +1,6 @@
-# Stil-Leitfaden (Vorlage)
+# Stil-Leitfaden No Comfort Zone (NCZ)
 
-**Status:** noch nicht eingerichtet. Bis der Abschnitt „Stil festlegen“ mit dem Nutzer durchlaufen ist, gilt der **Grundstil** unten. Danach hier Marke, Regeln und Werte eintragen, `stil.json` im selben Zug anpassen und diesen Status ersetzen.
+**Status:** eingerichtet am 05.10.2026 aus Vorbild 1 (`referenz/stil_leitfaden/vorbild_1/`). Gemessen und übernommen: 45–60 s, Crew-Einstieg mit Gruppenbild, Drop auf der ersten Station, eine Station je Szene, weiche Überblendungen als Markenzeichen, Fahne/Banner als Klammer, wenig Effekte. Offen (Nutzer gefragt): Musik, Einstieg mit O-Ton oder nur Song-Intro, Look, Logo, No-Gos.
 
 **Vorrang:** das neueste Feedback des Nutzers vor diesem Leitfaden, dieser Leitfaden vor Stil-Matrix und Effekt-Rezepten in `Reel-Studio_Projektanweisungen.md`. Ändert sich hier etwas, `stil.json` und bei Bedarf `Kurzanleitung.md` im selben Zug anpassen.
 
@@ -11,17 +11,17 @@
 Gelten für Reels, in denen der Song führt. Für Interview-Reels, in denen Leute in die Kamera sprechen, gilt stattdessen Abschnitt 10: dort führt die Stimme, Untertitel und Abspann gehören dazu.
 
 1. **Der Song ist der Chef, der echte Ton spielt mit.** Der Song läuft ohne Soundeffekte von der ersten bis zur letzten Phrase durch. Leiser wird er nur im Einstieg (Regel 11), in höchstens 2 kurzen O-Ton-Momenten an ruhigen Stellen ohne 808, am besten im Break (Rufe, Lachen, Jubel vorn, der Song etwa 10 dB leiser und dumpfer), und im Ausklang (Regel 12). Unter Echtzeit-Szenen darf guter Originalton leise mitlaufen (Atmen, Rufe; nie Musik aus einer Box, kein Wind).
-2. **Volle Phrasen, Länge laut `stil.json`** (Grundstil 30–40 s). Das Reel besteht aus ganzen 4-Takt-Phrasen (eine Phrase dauert 960/BPM Sekunden): so viele, dass es mindestens `laenge_s[0]` Sekunden lang ist, eine Phrase mehr bis `laenge_s[1]`, wenn ganze Aktionen sonst keinen Platz haben. Der Ausschnitt enthält die Hook oder den Drop und darf in die folgenden Songteile weiterlaufen oder mit einer ruhigen Phrase davor beginnen. Start und Ende auf einer Phrasengrenze, nie mitten im Takt enden, nie einen 808 abschneiden (in den letzten 150 ms kein 808-Einsatz).
-3. **Story in 4 Kapiteln aus Szenen** (Namen in `stil.json`, Standard: Einstieg, Aufbau, Höhepunkt, Finale). Jedes Kapitel beginnt auf einer Phrasengrenze und dauert 1–3 Phrasen; der Einstieg meist eine, die Mitte am längsten. Reihenfolge nach Story, nicht nach Uhrzeit.
-4. **Szenen mit Jump Cuts, Schnitte auf Schlag 1 oder 3.** Eine Szene ist eine Aktion, eine Station oder ein Ort und dauert 1–4 Takte, meist 2. Sie wird in 1–3 Teilen gezeigt, innen mit Jump Cuts auf dem Beat: derselbe Clip eine ganze Wiederholung später (mindestens 1 s Zeitsprung), ein anderer Winkel derselben Aktion oder die nächste Person vor derselben Kamera. Jeder Teil dauert so lange wie seine ganze Aktion, auf gerade Beats aufgerundet; 2 Beats nur für durchgehende Bewegung ohne Anfang und Ende (Seilspringen, Laufen, Tanzen) und für kurze Reaktionen (Gesicht, Jubel). Ein Clip kommt nur in einer Szene vor.
-5. **Jeder Akzent im Beat bekommt seinen Bild-Akzent** (Abschnitt 3): 808 = Zoom-Punch mit Blur, Nachschlag = zweiter Punch, Clap = Schnitt mit Mini-Punch, sonst harter Schnitt. Fällt ein 808 in einen laufenden Teil, bekommt er den Punch im selben Shot. Auf einem Jump Cut ist der Sprung der Akzent, höchstens mit Mini-Punch. Überblendungen (0,4 s) nur an ruhigen Stellen ohne 808 (Einstieg, Break, O-Ton-Moment), höchstens `budget.uebergaenge`; zwischen den Szenen bleibt der harte Schnitt auf dem 808.
+2. **Volle Phrasen, Länge laut `stil.json`** (NCZ: 45–60 s, wie Vorbild 1). Das Reel besteht aus ganzen 4-Takt-Phrasen (eine Phrase dauert 960/BPM Sekunden): so viele, dass es mindestens `laenge_s[0]` Sekunden lang ist, eine Phrase mehr bis `laenge_s[1]`, wenn ganze Aktionen sonst keinen Platz haben. Der Ausschnitt enthält die Hook oder den Drop und darf in die folgenden Songteile weiterlaufen oder mit einer ruhigen Phrase davor beginnen. Start und Ende auf einer Phrasengrenze, nie mitten im Takt enden, nie einen 808 abschneiden (in den letzten 150 ms kein 808-Einsatz).
+3. **Story in 4 Kapiteln aus Szenen** (Namen in `stil.json`, NCZ: Crew, Grind, Power, No Comfort Zone). Jedes Kapitel beginnt auf einer Phrasengrenze und dauert 1–3 Phrasen; der Einstieg meist eine, die Mitte am längsten. Reihenfolge nach Story, nicht nach Uhrzeit.
+4. **Stations-Montage, Schnitte auf Schlag 1 oder 3.** Eine Szene ist eine Station mit einer Person oder Gruppe und dauert 1–2 Takte (im Vorbild 2–4 s), so dass viele verschiedene Leute und Übungen vorkommen. Sie wird in 1–3 Teilen gezeigt, innen mit Jump Cuts auf dem Beat: derselbe Clip eine ganze Wiederholung später (mindestens 1 s Zeitsprung), ein anderer Winkel derselben Aktion oder die nächste Person vor derselben Kamera. Jeder Teil dauert so lange wie seine ganze Aktion, auf gerade Beats aufgerundet; 2 Beats nur für durchgehende Bewegung ohne Anfang und Ende (Seilspringen, Laufen, Tanzen) und für kurze Reaktionen (Gesicht, Jubel). Ein Clip kommt nur in einer Szene vor.
+5. **Jeder Akzent im Beat bekommt seinen Bild-Akzent** (Abschnitt 3): 808 = Zoom-Punch mit Blur, Nachschlag = zweiter Punch, Clap = Schnitt mit Mini-Punch, sonst harter Schnitt. Fällt ein 808 in einen laufenden Teil, bekommt er den Punch im selben Shot. Auf einem Jump Cut ist der Sprung der Akzent, höchstens mit Mini-Punch. Weiche Überblendungen (0,4 s) sind ein NCZ-Markenzeichen: zwischen Szenen ohne frischen 808, etwa jeder zweite bis dritte Szenenwechsel, höchstens `budget.uebergaenge` (8); auf dem 808 und dem Drop bleibt der harte Schnitt.
 6. **Kein Teil kürzer als 2 Beats.** Einzige Ausnahme: eine Salve aus höchstens 4 Jump Cuts à 1 Beat in durchgehender Bewegung, einmal pro Reel. Sonst schnelle Bass-Folgen mit Punches im selben Shot spielen.
 7. **Ganze, gelungene Aktionen in Echtzeit.** Jede Szene zeigt ihre Aktion ganz, vom Anlauf oder unteren Umkehrpunkt bis zur Landung oder Endposition; der Schnitt kommt danach. Nie schneller als 1,0× (kein Zeitraffer). Lieber eine schwache Szene streichen als eine Aktion abschneiden. Keine gescheiterten Versuche.
-8. **Speed-Ramps nur als Ausnahme.** Standard: keine. Erlaubt nur auf explosiven Sprüngen mit Flugphase, als `ramp_hold`, Hit auf einem starken 808, die ganze Landung im Bild. Höchstens `budget.ramps`.
-9. **Effekte sparsam:** höchstens `budget.flashes` Flashes (Start des letzten Kapitels, Finale), immer auf Schnitt und 808. Shake nur auf Schlägen und Treffern, höchstens `budget.shakes` Shots.
+8. **Speed-Ramps nur als Ausnahme.** Standard: keine (Vorbild: keine). Erlaubt nur auf explosiven Sprüngen mit Flugphase, als `ramp_hold`, Hit auf einem starken 808, die ganze Landung im Bild. Höchstens `budget.ramps`.
+9. **Effekte sparsam, Handkamera-Gefühl:** keine Flashes, kein Shake (`budget` 0). Punches nur leicht (808 0,08, Nachschlag 0,06, Clap 0,04), die Bewegung kommt aus der Kamera nah am Geschehen.
 10. **Kein Glitch, Split-Screen, Freeze, Whip, Echo, keine SFX, kein Text**, außer der Nutzer will es (oder `stil.json` → `erlaubt`). Interview-Reels: Untertitel und Abspann gehören dazu.
-11. **Einstieg im Video, Wiedererkennung sofort** (`einstieg_im_video` in `stil.json`). Das Reel beginnt mit einem echten Moment und seinem Ton, am liebsten Logo oder Marke vor Ort (leichte Zeitlupe ~0,75× geht, der Ton läuft dann als Atmo in Echtzeit), sonst Leute, die sich sammeln, oder eine Ansage. Der Einstieg dauert 2, 4 oder 8 Beats oder eine ruhige Phrase, der Song klingt dabei gedämpft wie aus einer Box vor Ort; läuft im Clip-Ton schon Musik, setzt der Song erst auf dem Drop ein. Auf dem Drop kommt mit hartem Schnitt das stärkste Bild, am liebsten ein Epic-Shot (mehrere Leute gleichzeitig in einer gehaltenen, starken Pose) in 0,5× mit langsamem Push-in, nur im Fenster, in dem alle die Pose halten. Ohne Einstieg im Video: das stärkste Bild auf dem ersten Hit, Marke in den ersten 3 Sekunden.
-12. **Finale und Ausklang:** Schlussbild mindestens 4 Beats (Standard 8), Zeitlupe 0,5× plus Push-in ~12 % (laut `stil.json` → `finale`), bis zum Ende des Songs. Danach darf 1 Takt Ausklang mit echtem Ton folgen (Lachen, Jubel, Durchatmen; Song aus). Anfang und Ende zeigen beide die Wiedererkennung, so loopt es sauber.
+11. **Einstieg im Video, Wiedererkennung sofort** (`einstieg_im_video` in `stil.json`). Das Reel beginnt mit einem echten Moment und seinem Ton, am liebsten Logo oder Marke vor Ort (leichte Zeitlupe ~0,75× geht, der Ton läuft dann als Atmo in Echtzeit), sonst Leute, die sich sammeln, oder eine Ansage. Der Einstieg dauert 2, 4 oder 8 Beats oder eine ruhige Phrase, der Song klingt dabei gedämpft wie aus einer Box vor Ort; läuft im Clip-Ton schon Musik, setzt der Song erst auf dem Drop ein. NCZ (Vorbild 1): die Crew sammelt sich, dann das Gruppenbild vor dem Banner als Epic-Shot (`epic_opener`) noch vor dem Drop; auf dem Drop kommt mit hartem Schnitt die erste Station. Sonst gilt: auf dem Drop das stärkste Bild, am liebsten ein Epic-Shot (mehrere Leute gleichzeitig in einer gehaltenen, starken Pose) in 0,5× mit langsamem Push-in, nur im Fenster, in dem alle die Pose halten. Ohne Einstieg im Video: das stärkste Bild auf dem ersten Hit, Marke in den ersten 3 Sekunden.
+12. **Finale und Ausklang:** Schlussbild mindestens 4 Beats (Standard 8), in Echtzeit mit Push-in ~12 % (laut `stil.json` → `finale`), am liebsten die schwenkende NCZ-Fahne, bis zum Ende des Songs. Danach darf 1 Takt Ausklang mit echtem Ton folgen (Lachen, Jubel, Durchatmen; Song aus). Anfang und Ende zeigen beide die Wiedererkennung, so loopt es sauber.
 
 ---
 
@@ -49,18 +49,33 @@ Ziel: aus dem Grundstil den Stil des Nutzers machen, mit möglichst wenig Fragen
 
 | | |
 |---|---|
-| Marke / Account | … |
-| Nutzer (so nennst du ihn) | … |
-| Inhalt, Zielgruppe | … |
-| Wiedererkennung | Logo, Farben, Schrift, Ort, Kleidung, Banner … |
-| Vorbild-Reels | Datei, was gefällt, gemessene Werte (Länge, Szenen, Jump Cuts, Überblendungen, Punches, Flashes, Ton, Look) |
-| Musik | Genres, typische BPM |
-| No-Gos | … |
+| Marke / Account | No Comfort Zone (NCZ), Schriftzug „nocomfort zone“ |
+| Nutzer (so nennst du ihn) | Noah |
+| Inhalt, Zielgruppe | Outdoor-Community-Workouts im Calisthenics-Park (Battle Ropes, Klimmzüge, Dips, Liegestütze, Box Jumps, Kettlebell, Front Lever), für Leute, die mittrainieren wollen |
+| Wiedererkennung | schwarze Fahne und Banner mit weißem „nocomfort zone“, blauer Boden, Stangen-Parcours, Battle Ropes mit gelben Griffen; Person, die die Fahne schwenkt, als wiederkehrendes Motiv |
+| Vorbild-Reels | Vorbild 1 (`referenz/stil_leitfaden/vorbild_1/`), Messwerte unten |
+| Musik | Vorbild: ~103 BPM, Intro ohne Bass, Drop auf der ersten Station; Genres offen |
+| No-Gos | offen |
+
+**Vorbild 1, gemessen** (61,8 s, 720×1280, 30 fps; Shots an dichten Frames gezählt, die Schnitterkennung sieht die Überblendungen nicht):
+
+| | |
+|---|---|
+| Länge | 60,4 s Bild + 1,4 s Schwarz, ~6 Phrasen à 9,3 s |
+| Einstieg | 0–7,7 s: Crew läuft zusammen, dann Gruppenbild sitzend/stehend vor dem Banner (~3,5 s gehalten); Song-Intro ohne Bass, leise (−26 LUFS kurzzeitig) |
+| Drop | ~8 s, harter Schnitt auf die erste Station (Dips), Bass setzt ein |
+| Szenen | ~28 Shots in 52 s, meist 1,5–3 s (3–5 Beats), eine Station je Szene, fast nur verschiedene Leute; Jump Cuts selten (nächste Person an derselben Station) |
+| Überblendungen | ~12 weiche Blenden à 0,3–0,5 s zwischen Stationen, sonst harte Schnitte |
+| Effekte | keine Flashes, kein Shake, keine Ramps, kein Text, keine SFX; Bewegung aus der Handkamera (nah, Weitwinkel, leichte Untersicht) |
+| Motiv | Fahne „nocomfort zone“ 5× als Zwischenschnitt (≈ alle 10–15 s), Banner oft im Hintergrund, Schlussbild Fahne |
+| Ton | Song durchgehend, kein O-Ton hörbar, −14,3 LUFS |
+| Look | natürlich, sonnig, kräftiges Blau und Grün ohne Grading (`clean`) |
+| Schwächen, die wir besser machen | Schnitte nur zur Hälfte auf dem Beat, Ende nicht auf der Taktgrenze (808 abgeschnitten), 720p |
 
 ## 2. Rhythmus und Schnitt (Grundstil)
 
 - **Raster:** Schnitte auf Schlag 1 oder 3, Dramaturgie in Phrasen zu 4 Takten. Kapitel beginnen auf Phrasengrenzen.
-- **Länge:** volle 4-Takt-Phrasen, mindestens `laenge_s[0]` (Grundstil 30 s), eine Phrase mehr bis `laenge_s[1]` (40 s), wenn ganze Aktionen sonst keinen Platz haben. Kürzer (8 Takte) nur auf Wunsch. Beispiel: 140 BPM → 20 Takte, 167 BPM → 24 Takte.
+- **Länge:** volle 4-Takt-Phrasen, mindestens `laenge_s[0]` (NCZ 45 s), weitere Phrasen bis `laenge_s[1]` (60 s), wenn ganze Aktionen sonst keinen Platz haben (bei 103 BPM: 5–6 Phrasen). Kürzer (8 Takte) nur auf Wunsch. Beispiel: 140 BPM → 20 Takte, 167 BPM → 24 Takte.
 - **Start:** die Eins der Hook (oder des Drops) ist der Taktanfang der Phrase, nicht der erste laute Bass-Schlag. Ein Einstieg im Video (Auftakt von 2, 4 oder 8 Beats) verlängert das Reel und gehört zu Kapitel 1, er kürzt nie das Ende. Ende auf einer Phrasengrenze, 30–40 ms Fade, in den letzten 150 ms kein 808.
 - **Szenenlänge:** so lang wie die ganze Aktion, meist 4–8 Beats je Teil. Kürzer als `budget.aktion_beats` nur für durchgehende Bewegung und kurze Reaktionen; kein Teil unter `budget.min_beats` (außer einer Salve). „Mehr Szenen“ heißt ein längeres Reel mit mehr Material, nicht schnellere Schnitte. Es gibt keine Zielzahl für Szenen pro Sekunde.
 - **Andere Genres:** Stil-Matrix in `Reel-Studio_Projektanweisungen.md` Abschnitt 3 (z. B. House: 8-Takt-Phrasen, Drop = Highlight; Cinematic: lange Shots, kaum Punches). Wird ein Genre zum Standard, hier eintragen.
@@ -106,7 +121,7 @@ Der Mini-Punch fällt auf den Schnitt: Man sieht kein Hineinzoomen, nur wie das 
 
 ## 6. Effekte und Budget
 
-- „Smooth und klein“: Obergrenze ist das Budget in `stil.json` (Standard: 2 Ramps nur als Ausnahme, 2 Flashes, 2 Shakes, 4 Überblendungen). `edl.py` (über `edlcheck.py`), `shotliste.py` und `vfx/reelvfx.py check` warnen darüber.
+- „Smooth und klein“: Obergrenze ist das Budget in `stil.json` (NCZ: 1 Ramp nur als Ausnahme, 0 Flashes, 0 Shakes, 8 Überblendungen). `edl.py` (über `edlcheck.py`), `shotliste.py` und `vfx/reelvfx.py check` warnen darüber.
 - Push-in +6–12 % nur auf ruhigen Shots (Marke, Epic-Shot, Nahaufnahme, Schlussbild). Start-Zoom bis ~1,33× nur bei 4K-Material. Alles andere in Echtzeit, nie schneller.
 - Split-Screen nur auf Wunsch, dann mindestens 4 Beats und nicht direkt in einen kurzen Shot.
 - Kein Korn, keine extreme Schärfe (Instagram macht daraus Blockrauschen bzw. Halos).
@@ -165,3 +180,4 @@ Eigene Schrift, Farbe oder Abspann des Nutzers: hier eintragen und in `tools/vfx
 ## Änderungsprotokoll
 
 - (Datum): Vorlage übernommen, Grundstil gilt.
+- 05.10.2026: „Bitte analysiere dieses Reel und bau daraus unseren Stil im NCZ Studio“ – Vorbild 1 vermessen; Länge 45–60 s, Kapitel Crew/Grind/Power/No Comfort Zone, Stations-Montage, bis 8 weiche Überblendungen ohne 808, Gruppenbild-Opener, leichte Punches, keine Flashes/Shakes, Finale in Echtzeit mit Fahne.

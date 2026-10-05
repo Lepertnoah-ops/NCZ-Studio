@@ -8,7 +8,7 @@ jedes Paar in mindestens 2 Punkten anders, alle im Stil-Leitfaden). Bauen und ve
 tools/pipeline/varianten.py <reel> (--check nur Unterschied-Check).
 Vorher grid.json anlegen (song_analyse.py, gemeinsam in schnitt/ oder hier): {"per": …, "ph": …, "erste_eins": …}.
 Regeln: Stil-Leitfaden.md und stil.json (Einstieg im Video, Szenen mit Jump Cuts, volle 4-Takt-Phrasen, Länge laut
-stil.json; 4 Kapitel auf Phrasengrenzen; ganze Aktionen in Echtzeit; Akzent-Karte, Effekt-Budget; O-Ton, Überblendung nur ruhig).
+stil.json; 4 Kapitel auf Phrasengrenzen; ganze Aktionen in Echtzeit; Akzent-Karte, Effekt-Budget; O-Ton, Überblendung nie auf dem 808).
 Die Prüfung tools/pipeline/edlcheck.py (für alle Reels gemeinsam) meldet Verstöße gegen den Leitfaden; abgebrochen wird
 nur bei harten Fehlern (Beat-Summe, Clip in mehreren Szenen). Die Tonspur plant tools/pipeline/tonspur.py.
 
@@ -25,7 +25,7 @@ Szene = eine Übung, Station oder ein Ort (Regel 4), meist 2 Takte, gezeigt in 1
   tags  Effekt-Tags fürs Storyboard; fx = Parameter für tools/pipeline/render.py (Liste dort im Kopf)
   extra oton="leise" (Originalton leise unter dem Song) | "vorn" (im Einstieg, im Ausklang oder als O-Ton-Moment:
         Song tritt zurück; höchstens 2 Momente, am besten im Break); O-Ton nur mit gutem Ton (tools/analyse/oton.py)
-        ueber="blende" Überblendung 0,4 s in diesen Shot, nur an ruhigen Stellen ohne 808 (Regel 5)
+        ueber="blende" Überblendung 0,4 s in diesen Shot, nur ohne 808 (Regel 5, Budget in stil.json)
 Hybrid (z. B. YouTube Shorts): kurzer Dialog im Reel, bis zu 3, im Hauptteil, nie im Einstieg oder Ausklang:
   d(kapitel, clip, "erstes Wort(e)", "letztes Wort(e)", beschreibung, ab=0.0, jump=False)   Szene mit Sprache, Stimme vorn
         (tools/pipeline/dialog.py: Beats, Schnittpunkte in der Stille, Untertitel; braucht TRANSKRIPT, Whisper-Transkript des

@@ -41,7 +41,7 @@ REGELN = dict(
     sprung_min=1.0,                                            # s, Regel 4: Zeitsprung eines Jump Cuts im selben Clip
     salve_max=4,                                               # Regel 6: höchstens 4 Jump Cuts à 1 Beat, einmal pro Reel
     punch_jump=0.06,                                           # Regel 5: auf einem Jump Cut höchstens Mini-Punch
-    max_blenden=_B["uebergaenge"],                             # Regel 5: Überblendungen nur an ruhigen Stellen
+    max_blenden=_B["uebergaenge"],                             # Regel 5: Überblendungen nicht auf dem 808
     max_momente=2,                                             # Regel 1: O-Ton-Momente (O-Ton vorn nach dem Einstieg)
     max_dialoge=3,                                             # Dialog-Szenen (dialog.py), zählen nicht als O-Ton-Momente
     einstieg_max=16, ausklang_max=8,                           # Beats, Regeln 11, 12
@@ -138,7 +138,7 @@ def pruefen(E, takte=None, auftakt=None, ordner=None, versatz=0.0):
     # Überblendungen nur an ruhigen Stellen (Regel 5)
     bl = [x for x in S if x.get("ueber") == "blende"]
     if len(bl) > R["max_blenden"]:
-        w.append(f"{len(bl)} Überblendungen (max. {R['max_blenden']}, nur an ruhigen Stellen, Regel 5)")
+        w.append(f"{len(bl)} Überblendungen (max. {R['max_blenden']}, nicht auf dem 808, Regel 5)")
     auf808 = [x for x in bl if x["beat"] in hits]
     if auf808:
         w.append(f"Überblendung auf einem 808: Shot {nr(auf808)} (dort harter Schnitt, Regel 5)")
