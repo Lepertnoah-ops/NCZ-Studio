@@ -34,3 +34,7 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Große Modelle (über 20 MB), werden in jeder Session nachgeladen (tools/modelle/*/README.md)
+/tools/modelle/yolox/object_detection_yolox_2022nov.onnx
+/tools/modelle/sprecher/3dspeaker_speech_campplus_sv_zh_en_16k-common_advanced.onnx
