@@ -54,6 +54,7 @@ Ziel: aus dem Grundstil den Stil des Nutzers machen, mit möglichst wenig Fragen
 | Inhalt, Zielgruppe | … |
 | Wiedererkennung | Logo, Farben, Schrift, Ort, Kleidung, Banner … |
 | Vorbild-Reels | Datei, was gefällt, gemessene Werte (Länge, Szenen, Jump Cuts, Überblendungen, Punches, Flashes, Ton, Look) |
+| Vorbild Sport/Motivation | „All gas no brakes“ (Boxen, `referenz/stil_leitfaden/all_gas_no_brakes/`): 24 s, ~110 BPM, Shots Median 1,4 Beats, fliegende Nah-Kamera, entsättigt-kühler Gritty-Look, Lens-Flares als Übergang, 1 Flash, kein Text, kein O-Ton, Break gefiltert vor dem Drop, Abblende am Ende. Profil unten in Abschnitt 4. |
 | Musik | Genres, typische BPM |
 | No-Gos | … |
 
@@ -91,6 +92,14 @@ Der Mini-Punch fällt auf den Schnitt: Man sieht kein Hineinzoomen, nur wie das 
   - Food: Zutaten, Zubereitung, Anrichten, Genuss
   - Event/Konzert: Anreise, Aufbau, Show, Crowd
   - Handwerk/Produkt: Material, Arbeit, Detail, Ergebnis
+
+**Profil Sport/Motivation-Clip (aus der Referenz „All gas no brakes“, noch keine Regel):** Gilt erst, wenn der Nutzer es für solche Clips übernimmt; dann hier als Regel und in `stil.json` eintragen. Abweichungen vom Grundstil fett.
+- Länge **20–25 s** (2 Phrasen + Auftakt), ein Held, ein Ort; Kapitel: Ruhe (Hook-Bild, Kopf gesenkt, Untersicht) → Aufbau (Totale, Wiedererkennung, Schattenboxen) → Drop (Sack/Pratzen, stärkste Action) → Finale (schnellste Folge, Blick in die Kamera).
+- Einstieg **sofort mit dem Song** (kein O-Ton), Break vor dem Drop mit Tiefpass.
+- Shots **1–2 Beats** im Drop, Finale bis 1 Beat; ganze Aktionen nicht nötig, aber jeder Shot zeigt einen sauberen Schlag. Schnitte trotzdem auf dem Beat (die Referenz liegt oft daneben, das übernehmen wir nicht).
+- Energie aus der **bewegten Nah-Kamera** (Mitziehen, Kreisen, Vordergrund im Bild); dafür wenig Effekte: Punches auf den 808, 1 Flash, **Lens-Flare/Gegenlicht als Übergang** statt Überblendung.
+- Look **dunkel, entsättigt, kühl** (moody), Hauttöne nicht ins Grau ziehen.
+- Kein Text, keine SFX. Ende auf einem starken Bild statt Abblende auf Schwarz, damit es loopt.
 - Shot-Auswahl nach Thema des Kapitels, nicht nach Uhrzeit. Payoff-Clips (Ergebnis, Ziel, Auftritt) nur im letzten Kapitel.
 
 ## 5. Shot-Auswahl
@@ -165,3 +174,4 @@ Eigene Schrift, Farbe oder Abspann des Nutzers: hier eintragen und in `tools/vfx
 ## Änderungsprotokoll
 
 - (Datum): Vorlage übernommen, Grundstil gilt.
+- 2026-10-05: Referenz „All gas no brakes“ (Sport/Motivation, Boxen) vermessen, Profil in Abschnitt 4 als Vorschlag, noch nicht als Regel.
