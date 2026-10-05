@@ -105,12 +105,12 @@ K1, K2, K3, K4 = STIL["kapitel"][:4]
 # Kapitel 1: langer Einstieg am Essen-Tisch, der Song öffnet sich langsam (T3-8)
 s(8, K1, "7438", 2.0, "normal", ["Push-in"], "Einstieg: Essen-Tisch am Morgen, Stimmen", dict(push=[1.0, 1.05]), oton="vorn")
 s(8, K1, "20261004_124348", 4.0, "normal", [], "Aufwärmen in der Gruppe", {})
-s(8, K1, "6601", 3.0, "normal", ["Push-in"], "von oben: Leute im Park", dict(push=[1.0, 1.05]), ueber="blende")
+s(8, K1, "6674", 2.6, "normal", ["Push-in"], "Gang in den Park, Banner nocomfort.zone", dict(push=[1.0, 1.05]), ueber="blende")
 # Kapitel 2: der Beat setzt ein (T9), Training in langen Szenen
 s(8, K2, "6644", 1.0, "speed", ["Zeitlupe", "Push-in", "Punch-in"], "Beat setzt ein: Handstand-Duo hält",
   dict(push=[1.0, 1.08], punch=[[0, P808]]), speed=0.5)
-s(8, K2, "20261004_130130", 0.5, "normal", [], "Gruppe Liegestütz, Totale", {})
-s(8, K2, "6599", 3.0, "normal", [], "Sit-ups, sie lacht", {})
+s(10, K2, "20261004_130130", 0.5, "normal", [], "Gruppe Liegestütz, Totale", {})
+s(6, K2, "6599", 3.0, "normal", [], "Sit-ups, sie lacht", {})
 s(8, K2, "6668", 4.0, "normal", [], "Klimmzug zu zweit", {})
 # Kapitel 3: Break im Song: Handstand und Kochen mit O-Ton
 s(8, K3, "6643", 12.0, "normal", ["Push-in"], "Handstand-Duo auf Parallettes", dict(push=[1.0, 1.05]), ueber="blende")

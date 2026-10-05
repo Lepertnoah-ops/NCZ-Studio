@@ -104,10 +104,10 @@ P808, P808_NACH, MINI = STIL["punch"]["808"], STIL["punch"]["nachschlag"], STIL[
 K1, K2, K3, K4 = STIL["kapitel"][:4]
 # Kapitel 1: kurzer Einstieg + Break (T45-48)
 s(2, K1, "20261004_130520", 5.0, "normal", [], "Einstieg: Banner nocomfort.zone, echter Ton", {}, oton="vorn")
-s(8, K1, "6648", 5.0, "speed", ["Zeitlupe", "Push-in", "Punch-in"], "Handstand-Duo vor der Zuschauermenge",
-  dict(push=[1.0, 1.06], punch=[[5, P808], [7, P808_NACH]]), speed=0.5)
-s(4, K1, "6697", 0.0, "normal", ["Punch-in"], "Handstand vor dem Banner", dict(punch=[[0, P808], [2, P808_NACH]]))
-j(4, "6698", 0.0, "normal", ["Mini-Punch"], "Handstand, zweiter Versuch, bis zum Abgang", dict(punch=[[0, MINI]]))
+s(6, K1, "6648", 4.6, "speed", ["Zeitlupe", "Push-in", "Punch-in"], "Handstand-Duo vor der Zuschauermenge, beide halten (4,6-5,9 s)",
+  dict(push=[1.0, 1.06], punch=[[5, P808]]), speed=0.5)
+s(4, K1, "6697", 0.0, "normal", ["Punch-in"], "Handstand vor dem Banner", dict(punch=[[1, P808], [2, P808_NACH]]))
+j(6, "6698", 0.0, "normal", ["Mini-Punch"], "Handstand, zweiter Versuch, gehalten", dict(punch=[[0, MINI], [2, P808]]))
 # Kapitel 2: Training (T49-52)
 s(4, K2, "6609", 1.0, "normal", [], "Liegestütz von oben", {})
 j(4, "6690", 2.0, "normal", ["Mini-Punch"], "Liegestütz, nächster Athlet", dict(punch=[[1, MINI]]))
@@ -122,8 +122,8 @@ s(4, K3, "6650", 1.0, "normal", [], "Sparring", {})
 j(4, "6640", 2.8, "normal", ["Shake"], "Sparring nah", dict(shake=[[2, 14, .5]]))
 # Kapitel 4: Reaktionen und Erschöpfung (T61-64)
 s(4, K4, "6632", 3.0, "normal", ["Punch-in"], "Klimmzug, dann Grinsen in die Kamera", dict(punch=[[3, P808]]))
-s(4, K4, "6734", 5.0, "normal", ["Punch-in"], "Essen: probieren, Reaktion", dict(punch=[[0, P808], [3, P808]]))
-s(8, K4, "6585", 9.0, "speed", ["Zeitlupe", "Push-in", "Flash"], "Finale: alle liegen erschöpft vor dem Banner",
+s(4, K4, "6734", 5.4, "normal", ["Punch-in"], "Essen: probieren, Reaktion", dict(punch=[[0, P808], [3, P808]]))
+s(8, K4, "6586", 0.2, "speed", ["Zeitlupe", "Push-in", "Flash"], "Finale: alle liegen erschöpft unter dem Banner",
   dict(push=[1.0, 1.12], flash=[[0, .55]], punch=[[0, P808], [2, P808_NACH]]), speed=0.5)
 # -------------------------------------------------------------------------------------------------------
 

@@ -64,10 +64,10 @@
    "t": 0.0
   },
   {
-   "beats": 8,
+   "beats": 6,
    "sec": "Einstieg",
    "clip": "6645",
-   "src": 1.0,
+   "src": 0.0,
    "mode": "speed",
    "fx": [
     "Zeitlupe",
@@ -86,8 +86,8 @@
      ]
     ]
    },
-   "desc": "Drop: Handstand-Duo hält, Zuschauer dahinter",
-   "prev": 1.0,
+   "desc": "Drop: Handstand-Duo hält (beide in der Pose bis 1,3 s)",
+   "prev": 0.0,
    "szene": 2,
    "speed": 0.5,
    "n": 2,
@@ -95,19 +95,19 @@
    "t": 1.674408
   },
   {
-   "beats": 8,
+   "beats": 10,
    "sec": "Einstieg",
    "clip": "20261004_130520",
-   "src": 2.7,
+   "src": 2.9,
    "mode": "normal",
    "fx": [],
    "fxp": {},
    "desc": "Training beginnt, Banner nocomfort.zone",
-   "prev": 2.7,
+   "prev": 2.9,
    "szene": 3,
    "n": 3,
-   "beat": 12,
-   "t": 5.023224
+   "beat": 10,
+   "t": 4.18602
   },
   {
    "beats": 8,
@@ -193,7 +193,7 @@
    "beats": 6,
    "sec": "Aufbau",
    "clip": "02235CDC-6CE8-4BF3-9741-EA778A00274A",
-   "src": 12.3,
+   "src": 12.6,
    "mode": "normal",
    "fx": [
     "Jump Cut",
@@ -208,7 +208,7 @@
     ]
    },
    "desc": "Klimmzug, nächster Athlet",
-   "prev": 12.3,
+   "prev": 12.6,
    "szene": 6,
    "jump": true,
    "n": 8,
@@ -219,7 +219,7 @@
    "beats": 6,
    "sec": "Aufbau",
    "clip": "6629",
-   "src": 6.6,
+   "src": 7.0,
    "mode": "normal",
    "fx": [
     "Punch-in"
@@ -233,7 +233,7 @@
     ]
    },
    "desc": "Dips am Barren",
-   "prev": 6.6,
+   "prev": 7.0,
    "szene": 7,
    "n": 9,
    "beat": 46,

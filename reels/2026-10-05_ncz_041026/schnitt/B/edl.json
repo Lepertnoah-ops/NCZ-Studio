@@ -50,10 +50,10 @@
    "t": 0.0
   },
   {
-   "beats": 8,
+   "beats": 6,
    "sec": "Einstieg",
    "clip": "6648",
-   "src": 5.0,
+   "src": 4.6,
    "mode": "speed",
    "fx": [
     "Zeitlupe",
@@ -69,15 +69,11 @@
      [
       5,
       0.14
-     ],
-     [
-      7,
-      0.12
      ]
     ]
    },
-   "desc": "Handstand-Duo vor der Zuschauermenge",
-   "prev": 5.0,
+   "desc": "Handstand-Duo vor der Zuschauermenge, beide halten (4,6-5,9 s)",
+   "prev": 4.6,
    "szene": 2,
    "speed": 0.5,
    "n": 2,
@@ -96,7 +92,7 @@
    "fxp": {
     "punch": [
      [
-      0,
+      1,
       0.14
      ],
      [
@@ -109,11 +105,11 @@
    "prev": 0.0,
    "szene": 3,
    "n": 3,
-   "beat": 10,
-   "t": 4.18602
+   "beat": 8,
+   "t": 3.348816
   },
   {
-   "beats": 4,
+   "beats": 6,
    "sec": "Einstieg",
    "clip": "6698",
    "src": 0.0,
@@ -127,16 +123,20 @@
      [
       0,
       0.06
+     ],
+     [
+      2,
+      0.14
      ]
     ]
    },
-   "desc": "Handstand, zweiter Versuch, bis zum Abgang",
+   "desc": "Handstand, zweiter Versuch, gehalten",
    "prev": 0.0,
    "szene": 3,
    "jump": true,
    "n": 4,
-   "beat": 14,
-   "t": 5.860428
+   "beat": 12,
+   "t": 5.023224
   },
   {
    "beats": 4,
@@ -380,7 +380,7 @@
    "beats": 4,
    "sec": "Finale",
    "clip": "6734",
-   "src": 5.0,
+   "src": 5.4,
    "mode": "normal",
    "fx": [
     "Punch-in"
@@ -398,7 +398,7 @@
     ]
    },
    "desc": "Essen: probieren, Reaktion",
-   "prev": 5.0,
+   "prev": 5.4,
    "szene": 12,
    "n": 15,
    "beat": 70,
@@ -407,8 +407,8 @@
   {
    "beats": 8,
    "sec": "Finale",
-   "clip": "6585",
-   "src": 9.0,
+   "clip": "6586",
+   "src": 0.2,
    "mode": "speed",
    "fx": [
     "Zeitlupe",
@@ -437,8 +437,8 @@
      ]
     ]
    },
-   "desc": "Finale: alle liegen erschöpft vor dem Banner",
-   "prev": 9.0,
+   "desc": "Finale: alle liegen erschöpft unter dem Banner",
+   "prev": 0.2,
    "szene": 13,
    "speed": 0.5,
    "n": 16,

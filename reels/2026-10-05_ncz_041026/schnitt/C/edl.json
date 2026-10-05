@@ -70,8 +70,8 @@
   {
    "beats": 8,
    "sec": "Einstieg",
-   "clip": "6601",
-   "src": 3.0,
+   "clip": "6674",
+   "src": 2.6,
    "mode": "normal",
    "fx": [
     "Push-in",
@@ -83,8 +83,8 @@
      1.05
     ]
    },
-   "desc": "von oben: Leute im Park",
-   "prev": 3.0,
+   "desc": "Gang in den Park, Banner nocomfort.zone",
+   "prev": 2.6,
    "szene": 3,
    "ueber": "blende",
    "n": 3,
@@ -123,7 +123,7 @@
    "t": 10.046448
   },
   {
-   "beats": 8,
+   "beats": 10,
    "sec": "Aufbau",
    "clip": "20261004_130130",
    "src": 0.5,
@@ -138,7 +138,7 @@
    "t": 13.395264
   },
   {
-   "beats": 8,
+   "beats": 6,
    "sec": "Aufbau",
    "clip": "6599",
    "src": 3.0,
@@ -149,8 +149,8 @@
    "prev": 3.0,
    "szene": 6,
    "n": 6,
-   "beat": 40,
-   "t": 16.74408
+   "beat": 42,
+   "t": 17.581284
   },
   {
    "beats": 8,

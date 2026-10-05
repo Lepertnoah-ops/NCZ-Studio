@@ -105,16 +105,16 @@ K1, K2, K3, K4 = STIL["kapitel"][:4]
 # Kapitel 1: Einstieg im Video in der ruhigen Pause (T28) + Drop auf T29
 s(4, K1, "20261004_124259", 1.2, "speed", ["Zeitlupe"], "Einstieg: Gruppe sammelt sich im Park, Zurufe",
   dict(push=[1.0, 1.04]), speed=0.75, oton="vorn")
-s(8, K1, "6645", 1.0, "speed", ["Zeitlupe", "Push-in", "Punch-in"], "Drop: Handstand-Duo hält, Zuschauer dahinter",
+s(6, K1, "6645", 0.0, "speed", ["Zeitlupe", "Push-in", "Punch-in"], "Drop: Handstand-Duo hält (beide in der Pose bis 1,3 s)",
   dict(push=[1.0, 1.08], punch=[[0, P808]]), speed=0.5)
-s(8, K1, "20261004_130520", 2.7, "normal", [], "Training beginnt, Banner nocomfort.zone", {})
+s(10, K1, "20261004_130520", 2.9, "normal", [], "Training beginnt, Banner nocomfort.zone", {})
 # Kapitel 2: Aufwärmen und Gruppenübungen
 s(8, K2, "20261004_124710", 3.6, "normal", ["Punch-in"], "Aufwärmen: Arme hoch, ganze Gruppe", dict(punch=[[0, P808]]))
 s(4, K2, "20261004_130551", 3.2, "normal", [], "Liegestütz Gruppe, Banner hinten", {})
 j(4, "6631", 7.5, "normal", ["Mini-Punch"], "Liegestütz, andere Gruppe mit Griffen", dict(punch=[[0, MINI]]))
 s(4, K2, "6689", 6.0, "normal", [], "Klimmzug nah", {})
-j(6, "02235CDC-6CE8-4BF3-9741-EA778A00274A", 12.3, "normal", ["Mini-Punch"], "Klimmzug, nächster Athlet", dict(punch=[[0, MINI]]))
-s(6, K2, "6629", 6.6, "normal", ["Punch-in"], "Dips am Barren", dict(punch=[[0, P808]]))
+j(6, "02235CDC-6CE8-4BF3-9741-EA778A00274A", 12.6, "normal", ["Mini-Punch"], "Klimmzug, nächster Athlet", dict(punch=[[0, MINI]]))
+s(6, K2, "6629", 7.0, "normal", ["Punch-in"], "Dips am Barren", dict(punch=[[0, P808]]))
 # Kapitel 3: Stationen
 s(4, K3, "6623", 5.4, "normal", ["Shake"], "Pratzen: Schlagserie", dict(shake=[[0, 14, .5]]))
 j(4, "6682", 3.1, "normal", [], "Pratzen, nächstes Paar", dict(punch=[[0, MINI]]))
